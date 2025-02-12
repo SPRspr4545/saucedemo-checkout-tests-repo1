@@ -147,7 +147,7 @@ public class PageObjectModelTest3 {
             productsPage.mavigateToCart();
 
             Assert.assertTrue(cartPage.isPageOpened(),"Cart page not loaded"); // la page est ouverte
-            Assert.assertEquals(cartPage.getCartItemCount(),"4","Incorrect number of items in the cart"); // nombre de paniers
+            Assert.assertEquals(cartPage.getCartItemCount(),"2","Incorrect number of items in the cart"); // nombre de paniers
             Assert.assertEquals(cartPage.getContinueButtonText(), "Checkout",
                     "Incorrect button text on the cart page"); // bouton "checkout/Commander"
 
