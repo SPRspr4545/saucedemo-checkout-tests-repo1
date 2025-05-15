@@ -214,7 +214,7 @@ public class PageObjectModelTest3 {
         Assert.assertEquals(finalCheckoutPage.getShippingInfoValue(),
                 "Free Pony Express Delivery!");
         Assert.assertEquals(finalCheckoutPage.getTotalLabel(),
-                "Total: $86.38");
+                "Total: $86.38 XXXXXXXXXX");
 
         delay();
     }
