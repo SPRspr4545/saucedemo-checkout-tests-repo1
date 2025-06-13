@@ -233,7 +233,7 @@ public class PageObjectModelTest3 {
         finalCheckoutPage.finishCheckout();
 
         Assert.assertEquals(orderCompletionPage.getHeaderTest(),
-                "Thank you Farah :)");
+                "Thank you for your order!");
         Assert.assertEquals(orderCompletionPage.getBodyText(),
                 "Your order has been dispatched, and will arrive just as fast as the pony can get there!");
 
