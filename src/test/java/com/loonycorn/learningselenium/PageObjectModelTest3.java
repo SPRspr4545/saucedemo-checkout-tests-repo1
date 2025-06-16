@@ -243,7 +243,7 @@ public class PageObjectModelTest3 {
     @Test(dependsOnMethods = "testOrderCompletion")
     public void testDummy() {
         Assert.assertEquals(orderCompletionPage.getHeaderTest(),
-                "Thank you for your order!");
+                "Thank you Farah :) !");
         Assert.assertEquals(orderCompletionPage.getBodyText(),
                 "Your order has been dispatched, and will arrive just as fast as the pony can get there!");
     }
